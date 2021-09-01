@@ -5,44 +5,49 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Blogs</title>
+            <link rel="stylesheet" href="css/index.css">
         </head>
     <body>
-        <header></header>
-            <nav>
-            <ul aria-label="list" >
-                <li><a label="listitem" href="index.html">Home</a></li>
-                <li><a label="listitem" href="blogs.html">Bogs</a></li>
-                <li><a label="listitem" href="singleblogs.html">Single Blog</a></li>
-            </ul>
-            </nav>
-        </header>
-        <hr>
-        <main>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae vero modi recusandae, ut in quod veritatis fugit. Voluptate labore odit facilis non veniam? Rerum, aspernatur.</h2>
+        <div class="container">
+            <header class="header">
+                <head>
+                  <img class="header__logo" src="assets/images/header.svg" alt="">
+                </head>
+                <nav class="header__navbar">
+                  <ul class="header__navbar-list" aria-label="list" >
+                    <li><a label="listitem" href="index.html">Home</a></li>
+                    <li><a label="listitem" href="blogs.html">Bogs</a></li>
+                    <li><a label="listitem" href="singleblogs.html">Single Blog</a></li>
+                  </ul>
+                </nav>
+              </header>
             <hr>
-            <section>
-                <article>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>Quod quisquam nihil consequuntur et asperiores molestias atque accusamus aut, voluptate sequi itaque tenetur placeat.</p>
-                </article>
-                <article>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>Quod quisquam nihil consequuntur et asperiores molestias atque accusamus aut, voluptate sequi itaque tenetur placeat.</p>
-                </article>
-                <article>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>Quod quisquam nihil consequuntur et asperiores molestias atque accusamus aut, voluptate sequi itaque tenetur placeat.</p>
-                </article>
-            </section>
-            <hr>
-        </main>
-        <footer>
-            <nav>
-            <p> &copy;Copyright August 2021</p>
-            <ul id="nav" aria-label="list">
-                <li><a label="listitem" href="index.html">About Us</a></li>
-                <li><a label="listitem" href="blogs.html">Contact Us</a></li>
-            </nav>
-        </footer>
+            <main class="main-content">
+                <h2 class="welcome-note">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae vero modi recusandae, ut in quod veritatis fugit. Voluptate labore odit facilis non veniam? Rerum, aspernatur.</h2>
+                <hr>
+                <section class="blog-sec">
+                    <article class="blog-sec__article">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Quod quisquam nihil consequuntur et asperiores, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolorem tempore, veritatis, totam, autem laboriosam sequi iure sed soluta necessitatibus neque quas et qui blanditiis labore fugit esse! Nobis, qui aut? Vel quo ipsum doloremque veritatis praesentium id voluptates maiores iure molestiae fuga, possimus atque distinctio cumque soluta modi ratione? molestias atque accusamus aut, voluptate sequi itaque tenetur placeat.</p>
+                    </article>
+                    <article class="blog-sec__article">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Quod quisquam nihil consequuntur et asperiores, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dolor provident eligendi voluptatem aliquid dolorum ullam, et tempora delectus, illo nam. Corrupti nihil, excepturi cum quas repellat ad quo voluptatum in ex, sit, numquam expedita? Ducimus quidem, voluptates repellat modi esse facere reiciendis rerum facilis laborum repellendus veritatis iure quod! molestias atque accusamus aut, voluptate sequi itaque tenetur placeat.</p>
+                    </article>
+                    <article class="blog-sec__article">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Quod quisquam nihil consequuntur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod harum quam voluptatem quasi consequatur. Perspiciatis consequatur natus rem maiores veniam voluptas asperiores totam maxime aspernatur id provident quam numquam ea, recusandae doloremque quas impedit error nemo excepturi architecto veritatis beatae soluta minus eos. Omnis aliquam praesentium harum tenetur, quaerat minima? et asperiores molestias atque accusamus aut, voluptate sequi itaque tenetur placeat.</p>
+                    </article>
+                </section>
+            </main>
+            <footer>
+                <nav class="footer-nav">
+                  <p class="footer-nav__copyright"> &copy;Copyright August 2021</p>
+                  <ul id="nav" aria-label="list">
+                    <li><a label="listitem" href="index.html">About Us</a></li>
+                    <li><a label="listitem" href="blogs.html">Contact Us</a></li>
+                </nav>
+              </footer>
+        </div>
     </body>
 </html>
