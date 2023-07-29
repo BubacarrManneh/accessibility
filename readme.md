@@ -11,4 +11,4 @@ Tips:
 
 2. Use **semantic html tags** (can be found in slide) to divide your html body into different sections for accessibility
 
-3. Focus on the html structure and accessibility, not css
+3. Focus on the html structure and accessibility, not css.
